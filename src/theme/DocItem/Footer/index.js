@@ -142,9 +142,9 @@ export default function DocItemFooter() {
   let transUrl = null;
   // let transUrl = "https://crowdin.com/project/casdoor-website";
   if (locale === "zh") {
-    transUrl = "https://crowdin.com/project/casdoor-website/zh-CN";
+    transUrl = "https://crowdin.com/project/casbin-website/zh-CN";
   } else if (locale !== "en") {
-    transUrl = `https://crowdin.com/project/casdoor-website/${locale}`;
+    transUrl = `https://crowdin.com/project/casbin-website/${locale}`;
   }
 
   return (
